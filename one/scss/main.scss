@@ -1,6 +1,69 @@
-$badass: #bada55;
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,600');
+@import 'variables';
 
 body { 
-  margin: 0; 
   background-color: $badass; 
+  font-family: $oswald;
 }
+
+.landmark-header {
+  background-color: $header-red;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  a {
+    text-decoration: none;
+    color: white;
+    align-self: center;
+    &:hover {
+      color: $nav-gray;
+    }
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+}
+
+.nav-links {  
+  background-color: $nav-gray;
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+  p {
+    color: white;
+    margin: 5px;
+    &:hover {
+      cursor: pointer;
+      color: $header-red;
+    }
+  }
+}
+
+.container {
+  display: flex;
+  background-color: white;
+}
+
+.DAM {
+  max-width: 75%;
+  img {
+    width: 95%;
+    margin: 20px;
+  }
+}
+
+.dam-description {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 20px 20px 20px;
+  p, h1 {
+    padding: 5px;
+  }
+  h1 {
+    font-weight: $semi-bold;
+  }
+}
+

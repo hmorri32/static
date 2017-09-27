@@ -1,4 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,600");
 body {
-  margin: 0;
   background-color: #bada55;
-}
+  font-family: "Oswald", sans-serif; }
+
+.landmark-header {
+  background-color: #A61612;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center; }
+  .landmark-header a {
+    text-decoration: none;
+    color: white;
+    align-self: center; }
+    .landmark-header a:hover {
+      color: #292929; }
+  .landmark-header h1 {
+    font-size: 1.5em; }
+
+.nav-links {
+  background-color: #292929;
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px; }
+  .nav-links p {
+    color: white;
+    margin: 5px; }
+    .nav-links p:hover {
+      cursor: pointer;
+      color: #A61612; }
+
+.container {
+  display: flex;
+  background-color: white; }
+
+.DAM {
+  max-width: 75%; }
+  .DAM img {
+    width: 95%;
+    margin: 20px; }
+
+.dam-description {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 20px 20px 20px; }
+  .dam-description p, .dam-description h1 {
+    padding: 5px; }
+  .dam-description h1 {
+    font-weight: 600; }

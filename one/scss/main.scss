@@ -2,8 +2,9 @@
 @import 'variables';
 
 body { 
-  background-color: $badass; 
+  // background-color: $badass; 
   font-family: $oswald;
+  min-height: 100%;
 }
 
 .landmark-header {
@@ -67,3 +68,31 @@ body {
   }
 }
 
+.image-container {
+  margin: 20px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  h2 {
+    padding: 0px 0px 10px 0px;
+  }
+  img {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
+
+.footer {
+  display: flex;
+  font-weight: $light;
+  bottom: 0;
+  height: 70px;
+  color: white;
+  background-color: $nav-gray;
+  margin: auto; 
+  p {
+    font-size: 13px;
+    margin: 20px;
+  }
+}
